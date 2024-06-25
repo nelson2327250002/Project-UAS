@@ -5,7 +5,7 @@
         <div class="col-lg-4">
             <div class="box_main">
                 <ul>
-                    <li><a href="{{ route('userprofile') }}">Dashboard</a></li>
+                    <li><a href="{{ route('userprofile') }}">Info Account</a></li>
                     <li><a href="{{ route('pendingorders') }}">Pending Orders</a></li>
                     <li><a href="{{ route('history') }}">History</a></li>
                     <li><a href="">Logout</a></li>
