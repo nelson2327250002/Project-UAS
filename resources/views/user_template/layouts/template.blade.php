@@ -132,13 +132,13 @@
                         </div>
                         <div class="login_menu">
                             <ul>
-                                <li><a href="#">
+                                <li><a href="{{ route('addtocart') }}">
                                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                        <span class="padding_10">Cart</span></a>
+                                        <span class="padding_10">Chart</span></a>
                                 </li>
-                                <li><a href="#">
+                                <li><a href="{{ route('userprofile') }}">
                                         <i class="fa fa-user" aria-hidden="true"></i>
-                                        <span class="padding_10">Cart</span></a>
+                                        <span class="padding_10">Account</span></a>
                                 </li>
                             </ul>
                         </div>
